@@ -1,9 +1,15 @@
 body{
     margin: 0;
-    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
 }
-
+a{
+    text-decoration: none;
+}
+.navbar{
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px ;
+}
 .nav-link{
     font-size: 25px;
 }
@@ -14,6 +20,11 @@ body{
 }
 .image{
     width: 100%;
+}
+.garis{
+    width: 100%;
+    border: 2px solid;
+    margin-bottom: 20px;
 }
 .button{
     border:none;
@@ -35,4 +46,10 @@ body{
     border: 3px solid;
     border-top-right-radius:50px ;
     border-bottom-left-radius:50px ;
+}
+
+.bg-img{
+    background-image: url('../assets/business.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
